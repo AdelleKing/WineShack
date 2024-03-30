@@ -1,0 +1,47 @@
+[
+    {
+        "fields": {
+            "friendly_name": "Red Wine",
+            "name": "Red_Wine"
+        },
+        "model": "products.category",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "friendly_name": "White Wine",
+            "name": "White_Wine"
+        },
+        "model": "products.category",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "friendly_name": "Rosé Wine",
+            "name": "Rosé_Wine"
+        },
+        "model": "products.category",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "friendly_name": "Gifts",
+            "name": "Gifts"
+        },
+        "model": "products.category",
+        "pk": 4
+    },
+    {
+        "fields": {
+            "friendly_name": "Champagne",
+            "name": "Champagne"
+        },
+        "model": "products.category",
+        "pk": 5
+    }
+]
+   
+   
+   
+   
+   
