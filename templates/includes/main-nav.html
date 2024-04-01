@@ -17,10 +17,12 @@
                 Wines
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Red Wines</a>
-                <a href="" class="dropdown-item">White Wines</a>
-                <a href="" class="dropdown-item">Rose Wines</a>
-                <a href="" class="dropdown-item">Champagne</a>
+                <a href="{% url 'products' %}?category=Red_Wine" class="dropdown-item">Red Wines</a>
+                <a href="{% url 'products' %}?category=White_Wine" class="dropdown-item">White Wines</a>
+                <a href="{% url 'products' %}?category=Rose_Wine" class="dropdown-item">Rose Wines</a>
+                <a href="{% url 'products' %}?category=Champagne" class="dropdown-item">Champagne</a>
+                <a href="{% url 'products' %}?category=Red_Wine,White_Wine,Rose_Wine,Champagne" class="dropdown-item">All Wines</a>
+
             </div>
         </li>
 
@@ -29,9 +31,12 @@
                 Gifts
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Red Wine</a>
-                <a href="" class="dropdown-item">Champagne</a>
-                <a href="" class="dropdown-item">All Gifts</a>
+                <a href="{% url 'products' %}?category=Red_Wine_Gifts" class="dropdown-item">Red Wine</a>
+                <a href="{% url 'products' %}?category=White_Wine_Gifts" class="dropdown-item">White Wine</a>
+                <a href="{% url 'products' %}?category=Rose_Wine_Gifts" class="dropdown-item">Rose Wine</a>
+                <a href="{% url 'products' %}?category=Champagne_Gifts" class="dropdown-item">Champagne</a>
+                <a href="{% url 'products' %}?category=Red_Wine_Gifts,White_Wine_Gifts,Rose_Wine_Gifts,Champagne_Gifts" class="dropdown-item">All Gifts</a>
+
             </div>
         </li>
 
