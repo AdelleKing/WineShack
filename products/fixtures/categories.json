@@ -17,8 +17,8 @@
     },
     {
         "fields": {
-            "friendly_name": "Rosé Wine",
-            "name": "Rosé_Wine"
+            "friendly_name": "Rose Wine",
+            "name": "Rose_Wine"
         },
         "model": "products.category",
         "pk": 3
@@ -38,7 +38,40 @@
         },
         "model": "products.category",
         "pk": 5
+    },
+    {
+        "fields": {
+            "friendly_name": "Champagne Gifts",
+            "name": "Champagne_Gifts"
+        },
+        "model": "products.category",
+        "pk": 6
+    },
+    {
+        "fields": {
+            "friendly_name": "Red Wine Gifts",
+            "name": "Red_Wine_Gifts"
+        },
+        "model": "products.category",
+        "pk": 7
+    },
+    {
+        "fields": {
+            "friendly_name": "White Wine Gifts",
+            "name": "White_Wine_Gifts"
+        },
+        "model": "products.category",
+        "pk": 8
+    },
+    {
+        "fields": {
+            "friendly_name": "Rose Wine Gifts",
+            "name": "Rose_Wine_Gifts"
+        },
+        "model": "products.category",
+        "pk": 9
     }
+    
 ]
    
    
