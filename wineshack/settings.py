@@ -114,7 +114,7 @@ SITE_ID = 1
 
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
-ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
 ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
 ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
@@ -220,6 +220,9 @@ if 'DEVELOPMENT' in os.environ:
     DEFAULT_FROM_EMAIL = 'WineShack@example.com'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+    EMAIL_USE_TLS = True
+    EMAIL_PORT = 587
+    EMAIL_HOST = 'smtp.gmail.com'
     EMAIL_HOST_PASS = os.environ.get('EMAIL_HOST_PASS')
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
