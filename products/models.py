@@ -30,9 +30,9 @@ class Product(models.Model):
     variety = models.CharField(max_length=254, null=True, blank=True)
     country = models.CharField(max_length=254, null=True, blank=True)
     region = models.CharField(max_length=254, null=True, blank=True)
-    vintage = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    vintage = models.CharField(max_length=254, null=True, blank=True)
     winery = models.CharField(max_length=254, null=True, blank=True)
-    ABV = models.DecimalField(max_digits=6, decimal_places=2, null=True, blank=True)
+    ABV = models.CharField(max_length=254, null=True, blank=True)
     type = models.CharField(max_length=254, null=True, blank=True)
 
 

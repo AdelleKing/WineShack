@@ -4,11 +4,16 @@ html {
 }
 
 body {
-    background: url('/media/homepage.jpg') no-repeat center center fixed;
+    background: url('/media/homepage1.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
+}
+
+.remove-bullet{
+    list-style-type: none !important;
+    display: none;
 }
 
 /* from Bulma */
@@ -175,6 +180,10 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+
+#info-btn{
+    background: #f8f9fa !important;
+}
 
 
 
