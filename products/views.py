@@ -45,7 +45,9 @@ def all_products(request):
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
             
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            jls_extract_var = region__icontains
+            queries = Q(name__icontains=query) | Q(description__icontains=query) | Q(variety__icontains=query) | Q(country__icontains=query) | Q(winery__icontains=query) 
+
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
