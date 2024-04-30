@@ -1,6 +1,6 @@
 # ***WineShack - Portfolio Project 4***
 ---
-# **1. Key project information**
+# **1. Site Overview**
 
 - **Description :** **WineShack** is a website offering wine enthusiasts a place to source great wine.  **WineShack** offers users the ability to search for various wines by grape variety, price, winery region and by rating - where the wines have been rated by other local enthusisats. 
 - **Key project goal :** To enable wine enthusistast to find and purchase wine from around the world. **WineShack** store, give users an easy checkout function with effortless profile and order management.
@@ -71,10 +71,22 @@
 I used Canva to create a visual representation of the WineShack site - below are the initial idea designs:
 
 * Desktop Wireframes:
-    * ![Homepage](assets/images/screenshots/index_wireframe.png)
-    * ![Activities](assets/images/screenshots/activities_wreframe.png)
-    * ![Business](assets/images/screenshots/business_wreframe.png)
-    * ![SignUp](assets/images/screenshots/signUP_wreframe.png) 
+
+* Landing Page:
+This page will be the first view of the site the users get - I want this to be minimal and clean and give the users an easy way to navigate to the products.
+    * ![Landing page](testing/images/landing%20page.png)
+
+* Products Page
+This page will display all the products available and will offer the user further sorting and filtering options to find their desired products.
+    * ![Products](testing/images/products.png)
+
+* Profile Page:
+This page will be concise and will enable the user to update thier details easily, this information will be automatically populated into the checkout form.
+    * ![Profile](testing/images/account.png)
+
+Checkout Page:
+* This page, although will have a lot of information, I will hopefully be able to make it look easy to navigate and easy to complete, providing the user with all th informtion needed to complete thier purchase.
+    * ![Checkout](testing/images/checkout.png) 
 
 
 
