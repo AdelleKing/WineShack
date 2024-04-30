@@ -1,6 +1,6 @@
 # ***WineShack - Portfolio Project 4***
 ---
-# **1. Site Overview**
+# **Site Overview**
 
 - **Description :** **WineShack** is a website offering wine enthusiasts a place to source great wine.  **WineShack** offers users the ability to search for various wines by grape variety, price, winery region and by rating - where the wines have been rated by other local enthusisats. 
 - **Key project goal :** To enable wine enthusistast to find and purchase wine from around the world. **WineShack** store, give users an easy checkout function with effortless profile and order management.
@@ -11,7 +11,7 @@
 
 ---
 
-# **2. Table of content**
+# **Table of content**
 
 ## Table of contents:
 1. [**Site Overview**](#site-overview)
@@ -22,17 +22,17 @@
     * [***How Is This Will Be Achieved:***](#how-this-will-be-achieved)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
-    * [***Technology Used***](#Technology-Used)
-    * [***Languages Used***](#Languages-Used)
-    * [***Frameworks, Libraries & Programs Used***](#Frameworks,-Libraries-&-Programs-Used)
-1. [**Common Features**](#Common-Features)
+    * [***Technology Used***](#technology-used)
+    * [***Languages Used***](#languages-used)
+    * [***Frameworks, Libraries & Programs Used***](#frameworks-libraries-&-programs-used)
+1. [**Common Features**](#common-features)
 1. [**Future-Enhancements**](#future-enhancements)
 1. [**Testing Phase**](#testing-phase)
-        * [*Testing*](#Testing)
-        * [*Testing User Stories from User Experience (UX) Section*](#Testing-User-Stories-from-User-Experience-(UX)-Section)        
-        * [*Further Testing*](#Further-Testing)
-1. [**Accessibility**](#Accessibility)
-1. [**Known Bugs**](#Known-Bugs)
+    * [*Testing*](#testing)
+    * [*Testing User Stories from User Experience (UX) Section*](#testing-user-stories-from-user-experience-ux-section)        
+    * [*Further Testing*](#further-testing)
+1. [**Accessibility**](#accessibility)
+1. [**Known Bugs**](#known-bugs)
 1. [**Deployment**](#deployment)
 1. [**Content**](#content)
 
@@ -96,7 +96,7 @@ I wanted the colour scheme to be clean and fresh so I opted for a black and whit
 FOnts used are also clean and minimal again to ensure there is no distraction when users are searching/reviewing wines.
 
 ### **Technology Used:**
-## Languages Used
+### Languages Used
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
@@ -125,7 +125,7 @@ FOnts used are also clean and minimal again to ensure there is no distraction wh
     -Image Color Picker was used to select the colors for my background, container backgrounds and text. 
 
 
-## **Common Features**
+### **Common Features**
 
 The navigation element used from the bootstrap framework. A base template was used then extended using Jinga reducing the amount of code written but also reducing the duplication of code. 
 
@@ -133,7 +133,7 @@ Within the product pages there is the ability to see more information about the 
 
 Within the checkout pages a form using Cripsy Forms was used to render details to the page as well as then save the details within other parts of the site.
 
-## **Future-Enhancements**
+### **Future-Enhancements**
 
 * Within the profile page, a future development would be to add more profile details. Including the ability to store favourite wines, to review wines and have a record of personal wine tasting reviews.
 
@@ -144,7 +144,7 @@ Within the checkout pages a form using Cripsy Forms was used to render details t
 
 ### **Testing Phase**
 
-## **Testing**
+### **Testing**
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
