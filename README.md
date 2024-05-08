@@ -2,9 +2,9 @@
 ---
 # **Site Overview**
 
-- **Description :** **WineShack** is a website offering wine enthusiasts a place to source great wine.  **WineShack** offers users the ability to search for various wines by grape variety, price, winery region and by rating - where the wines have been rated by other local enthusisats. 
-- **Key project goal :** To enable wine enthusistast to find and purchase wine from around the world. **WineShack** store, give users an easy checkout function with effortless profile and order management.
-- **Audience :** This website is aimed at those 18 years and older. It offers overs of wine a place to purchase wines but also family members, friends, work colleagues the opportunity to gift wines the wine lover in their lives.
+- **Description :** **WineShack** is a website offering wine enthusiasts a place to source great wine.  **WineShack** offers users the ability to search for various wines by grape variety, price, winery region and by rating - where the wines have been rated by other local enthusiasts. 
+- **Key project goal :** To enable wine enthusiasts to find and purchase wine from around the world. The **WineShack** store, give users an easy checkout function with effortless profile and order management.
+- **Audience :** This website is aimed at those 18 years and older. It offers lovers of wine a place to purchase wines but also family members, friends, work colleagues the opportunity to gift wines to the wine lovers in their lives.
 - **Live version :** Live version of **WineShack** page can be viewed at [https://wineshack-c948e5d21774.herokuapp.com/](https://wineshack-c948e5d21774.herokuapp.com//).
 
 ![Mockup](/testing/images/Amiresponsive.png)
@@ -19,7 +19,7 @@
     * [***Target Audiences***](#target-audiences)
     * [***User Stories***](#user-stories)
     * [***Site Aims***](#site-aims)
-    * [***How Is This Will Be Achieved:***](#how-this-will-be-achieved)
+    * [***How This Will Be Achieved:***](#how-this-will-be-achieved)
     * [***Wireframes***](#wireframes)
     * [***Color Scheme***](#color-scheme)
     * [***Technology Used***](#technology-used)
@@ -44,13 +44,13 @@
 
 
 ### **User Stories:**
-* As a user, I want to easily find wine based on a search criteria.
-* As a user, I want to a fast and secure checkout experience.
+* As a user, I want to easily find wines based on a search criteria.
+* As a user, I want a fast and secure checkout experience.
 * As a user, I want to save my order history and payment details.
 * As a user, I want to be able to update my profile information easily.
 * As a site administrator,  I want to be able to update and edit product information.
-* As a site administrator,  I want to be able to umanage my users and their profile information.
-* As a site administrator,  I want there to be as much automation as possible so purcahses can be made 24/7, worldwide.
+* As a site administrator,  I want to be able to manage my users and their profile information.
+* As a site administrator,  I want there to be as much automation as possible so purchases can be made 24/7, worldwide.
 
 
 
@@ -59,12 +59,12 @@
 * To enable users a quick search and find process, filtering items by desired criteria i.e. wine region, wine tasting rating.
 * To enable users to quickly checkout, even without saving their payment details if they prefer.
 * To provide a wide range of products all with reviews to support choosing a wine.
-* Enable users to save and update thier delivery details for easier checkout when returing to purchase. 
+* Enable users to save and update their delivery details for easier checkout when returning to purchase. 
 
 ### **How This Will Be Achieved:**
-* A user profile is available for users to opt into. While on the checkout page the user can opt to save thier delivery information to their profile. Or to checkout without creating a profile.
-* Users who do decide to create a profile can also use thier profile page to store thier purchase history.
-* Users can use the search functionalty to search for wines based on a range of criteria. THere are also drop down menus whcih also filter the products. 
+* A user profile is available for users to opt into. While on the checkout page the user can opt to save their delivery information to their profile. Or to checkout without creating a profile.
+* Users who do decide to create a profile can also use their profile page to store their purchase history.
+* Users can use the search functionality to search for wines based on a range of criteria. THere are also drop down menus which also filters the products. 
  
 
 ### **Wireframes:**
@@ -81,19 +81,19 @@ This page will display all the products available and will offer the user furthe
     * ![Products](testing/images/products.png)
 
 * Profile Page:
-This page will be concise and will enable the user to update thier details easily, this information will be automatically populated into the checkout form.
+This page will be concise and will enable the user to update their details easily, this information will be automatically populated into the checkout form.
     * ![Profile](testing/images/account.png)
 
 Checkout Page:
-* This page, although will have a lot of information, I will hopefully be able to make it look easy to navigate and easy to complete, providing the user with all th informtion needed to complete thier purchase.
+* Although this page will have a lot of information, I will hopefully be able to make it look easy to navigate and easy to complete, providing the user with all the information needed to complete their purchase.
     * ![Checkout](testing/images/checkout.png) 
 
 
 
 ### **Color Scheme:**
-I wanted the colour scheme to be clean and fresh so I opted for a black and white design. This enabled me to highlight the wines on display without distracting the user. From my research this is also a common feature on other e-commerce sites.
+I wanted the color scheme to be clean and fresh so I opted for a black and white design. This enabled me to highlight the wines on display without distracting the user. From my research this is also a common feature on other e-commerce sites.
 
-FOnts used are also clean and minimal again to ensure there is no distraction when users are searching/reviewing wines.
+Fonts used are also clean and minimal again to ensure there is no distraction when users are searching/reviewing wines.
 
 ### **Technology Used:**
 ### Languages Used
@@ -110,11 +110,11 @@ FOnts used are also clean and minimal again to ensure there is no distraction wh
 1. [jQuery](https://jquery.com/)
     - was used to support event handling and CSS animation throughout the site.
 1. [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap was used to apply styling and responsivness thorughout the site.
+    - Bootstrap was used to apply styling and responsiveness throughout  the site.
 1. [Jinja:](https://jinja.palletsprojects.com/en/3.1.x/)
     - Jinja was used to enable template inheritance throughout the site.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on the forms on the activity page, alongside the social media icons within the footer.
+    - Font Awesome was used to add icons.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the command line terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
@@ -127,11 +127,11 @@ FOnts used are also clean and minimal again to ensure there is no distraction wh
 
 ### **Common Features**
 
-The navigation element used from the bootstrap framework. A base template was used then extended using Jinga reducing the amount of code written but also reducing the duplication of code. 
+The navigation element used throughout the site is from the bootstrap framework. A base template was used which was extended using Jinga reducing the amount of code written and reducing the duplication of code. 
 
 Within the product pages there is the ability to see more information about the product.
 
-Within the checkout pages a form using Cripsy Forms was used to render details to the page as well as then save the details within other parts of the site.
+Within the checkout pages a form using Cripsy Forms was used to render details to the page as well as then save the details to be used within other parts of the site.
 
 ### **Future-Enhancements**
 
@@ -175,29 +175,29 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Add Products Page:
 
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_AddProduct.png)
 
     Edit Products Page:
 
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_editPage.png)
 
     Profile Page:
 
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_ProfilePage.png)
 
     Registration Page:
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_RegistrationPage.png)
 
     Sign in page:
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_LoginPage.png)
 
     Log out page:
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_logoutPage.png)
 
 
@@ -211,12 +211,12 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     Checkout Page:
 
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_checkoutpage.png)
 
     Checkout Success Page:
 
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/HTML_Validator_CheckoutSuccess.png)
 
 
@@ -225,7 +225,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator) 
 
 
-    Initial tests show no errors found, and a reccomendation offered.
+    Initial tests show no errors found, and a recommendation offered.
     ![Initial test results](testing/images/CSS_Validator.png)
 
     
@@ -238,14 +238,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. Users are able to search for wines using the search bar at the top of the homepage and within the products page. Drop down menus further sorting wines into categories can be found on the products page and the homepage. 
 
-    2. Within the products page, users can further sort the products using the filter functionality to the right of the page. On the left of the page, users can see how many products have been filterd and have the ability to return to the home page, removing the filters applied. 
+    2. Within the products page, users can further sort the products using the filter functionality to the right of the page. On the left of the page, users can see how many products have been filtered and have the ability to return to the home page, removing the filters applied. 
         
-2. As a user, I want to a fast and secure checkout experience.
-    1. The site uses Stripe to complete the users checkout experience. Stripe provides the user with security and confidence as they checkout. Webhooks are used throughout the checkout process to enable an issues to be caught and rectified and additional functionality is woven within the webhooks to allow fallbacks should any part of the transaction fail. 
-    2. Users can follow their purchases with pop up's informing them of what has been added to thier bag, how much more they should spend to obtain free delivery.
+2. As a user, I want a fast and secure checkout experience.
+    1. The site uses Stripe to complete the users checkout experience. Stripe provides the user with security and confidence as they checkout. Webhooks are used throughout the checkout process to enable any issues to be caught and rectified and additional functionality is woven within the webhooks to allow fallbacks should any part of the transaction fail. 
+    2. Users can follow their purchases with pop-ups informing them of what has been added to their bag and how much more they should spend to obtain free delivery.
 
 3. As a user, I want to save my order history and payment details.
-    1. The users have the option to save their payment and delivery details to a profile, or can checkout without a profile and receive their email confirmations. If they choose to create a profile, they will have the option to navigate to their profile page following successful checkout - here they can see past orders and update thier personal details.
+    1. The users have the option to save their payment and delivery details to a profile, or can checkout without a profile and receive their email confirmations. If they choose to create a profile, they will have the option to navigate to their profile page following successful checkout - here they can see past orders and update their personal details.
     
 
 4. As a user, I want to be able to update my profile information easily.
@@ -256,8 +256,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     1. Site administrators have additional functionality available to them if they have signed in with superuser credentials. This includes edit and delete buttons available on all products within the products page. Also, an additional drop down menu is displayed under the accounts menu - this allows superusers the ability to add and edit products.  
     
 
-6. As a site administrator,  I want there to be as much automation as possible so purcahses can be made 24/7, worldwide.
-    1. Automation is woven througout the site to enable 24/7 access. This includes automatic emails at key points within the registraion and checkout process. Tooltips are used to provide the user with notifications.  
+6. As a site administrator,  I want there to be as much automation as possible so purchases can be made 24/7, worldwide.
+    1. Automation is woven throughout the site to enable 24/7 access. This includes automatic emails at key points within the registration and checkout process. Tooltips are used to provide the user with notifications.  
 
 
 
@@ -316,5 +316,5 @@ Deployment to Heroku:
 
 ### **Content:**
 * I used Code Institue's walk through videos to support this project.
-* I used Font Awesome for the icons throught the site [Font Awesome](https://fontawesome.com) 
+* I used Font Awesome for the icons throughout the site [Font Awesome](https://fontawesome.com) 
 * Images were taken from [Pexels](https://www.pexels.com/)
